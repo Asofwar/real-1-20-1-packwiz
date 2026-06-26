@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "83cda4dddb58d78296fa4a4b0a0a7bd09c2a575b27cb48cdb0d764bea26bbf8c"
+hash = "573a912cdc3956a09e1e89b68347efdca155b5235dacda7876b177a5708b6a7b"
 
 [[files]]
 file = "config/CoroUtil/General.toml"

@@ -1,4 +1,4 @@
-filename = 'seasonhud-fabric-1.20.1-1.12.1.jar'
+filename = 'seasonhud-fabric-1.20.1-2.0.6.jar'
 name = 'SeasonHUD-Fabric'
 side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '998d436c914b7dce5929359ca6e239159cc96a5c08e6c02fbfa75b00be2e2813cab31f6518914da76c06ccbbd6f628a133de0dca69182db6832115f51dc61267'
+hash = '4ab8c38c46cccaf6c47f8e386acb50a5cbaa3720339ff5e3c2c3049a85fd3edbeeec146225200e9258cce81243904add4447783ed94c38cfe1e472b95e6168b5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/iDiIfZLX/versions/dCXkT1rh/seasonhud-fabric-1.20.1-1.12.1.jar'
+url = 'https://cdn.modrinth.com/data/iDiIfZLX/versions/CTtL1Pkz/seasonhud-fabric-1.20.1-2.0.6.jar'
 
 [update.modrinth]
 mod-id = 'iDiIfZLX'
-version = 'dCXkT1rh'
+version = 'CTtL1Pkz'

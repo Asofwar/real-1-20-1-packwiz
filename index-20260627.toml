@@ -1352,7 +1352,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "c40cb22a60e02eee6dc7354f172b261913aa54bc774162911520aa892cb34265"
+hash = "92c74b0a5a615514d1edfee0124aefcc83a8af6b231bae0892ec238852d60a1b"
 metafile = true
 
 [[files]]
@@ -1399,7 +1399,7 @@ hash = "c14811be4acad095e7b79a438c8169a3be9d39667c6572881c6cf311ddefb2e5"
 
 [[files]]
 file = "mods/better-advancements.pw.toml"
-hash = "6f66c73259438d80b5cdcff635934049f9cc2e090b72d1031335daf65d1cdd16"
+hash = "857f89175a06521c621008f35fc4a3695211fbf4235f100d348dd46b46058371"
 metafile = true
 
 [[files]]
@@ -1749,7 +1749,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "368d7b556d513fb7f32e533218a16e7c107194195814ee3ffe6e03f5d0eb1ef4"
+hash = "0098fabc9146678a93b2d6eaa12cce710de4567610214ae48c27c129864c9327"
 metafile = true
 
 [[files]]
@@ -1773,7 +1773,7 @@ hash = "ea6d5837327a227315c85f4366515e35fd5c7c165b3631ecf3298ec4d9547f98"
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "f116eba010f147bdbb551febd7ea6e2aeb86be519311e128a74352100db729e9"
+hash = "da51d2bc65b44cbf602a3c59a1a9b08cf9b468ac40e61d50ffc67ac6f6c28fce"
 metafile = true
 
 [[files]]
@@ -1938,7 +1938,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "22632e5842d8e7c2cfca81a980f020041004cfe13772d449dc2263d950d42252"
+hash = "16cd6e5ac1f61924a83f608ecd02b4e6a1af0830a0f34c9899adcaf924c6074f"
 metafile = true
 
 [[files]]
@@ -2002,7 +2002,7 @@ hash = "20433fb9a20f9450599bde4d8f0e8b0898eefdbda13e47d68430d31422c9f564"
 
 [[files]]
 file = "mods/language-reload.pw.toml"
-hash = "abfd3cb65edb86dc2c2d194a9ff37a970a7a7e69a205170ff8832fce7dacf3f9"
+hash = "6e7a6c6d4f16de2483034973b9c67726c0d844bd544c5b659233b3b308b4e057"
 metafile = true
 
 [[files]]
@@ -2281,7 +2281,7 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
-hash = "c52428bcc32a1322df8e0058624b6e908c7dd43f2032e52ddb4c44240d636d43"
+hash = "2d11b2ee9c2fd66b04f9cc2dc0e703727ac66874d37a7f027b85eb5c3039f9f0"
 metafile = true
 
 [[files]]
@@ -2319,8 +2319,8 @@ hash = "4e31621e2395e456e49c16c2d156dcdd3e3e22ff9aa4e34adee47216e812121f"
 metafile = true
 
 [[files]]
-file = "mods/sodium-fabric-0.5.11+mc1.20.1.jar"
-hash = "5413baaa260a2eadcee4221b8e7105a8e2a9b5b2c84b73f704f2740319aab7df"
+file = "mods/sodium-fabric-0.5.13+mc1.20.1.jar"
+hash = "688c26029ce69f0b1f7cf936866656ca6723228ac46c4aef5b5f793b1e6abd22"
 
 [[files]]
 file = "mods/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar"
@@ -4591,3 +4591,15 @@ hash = "425c2e6d75bccbb3aacfedba6b7c66e2619727a8f15a3469783d95f28b734cd2"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.4.zip"
 hash = "13af6c439ef8651916b18d2d658f134b07ce3c2e835d23d37d5d24c5d43284de"
+
+[[files]]
+file = "mods/animal-feeding-trough.pw.toml"
+hash = "f84d9becadfdcd1a114a0f2c0fdc9545d5a4930767b8857327896ba6907d6d9a"
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "6ac77e74241577c32ba8c8becaaed7887df6b8050f46c1c433411b270ddbc48e"
+
+[[files]]
+file = "mods/immersive-weathering.pw.toml"
+hash = "b971deae13b1274e9c41d8d11e6693904a403bbae1519f766c66da893557acbe"

@@ -1,0 +1,16 @@
+filename = 'create_bitterballen-0.0.86+1.20.1-fabric.jar'
+name = 'Create: Bitterballen'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2d1040c54e67e9d35c7f0b0001804c24e525035b44a542b4957b9905da84bd366a1f4bec8f604161f928b93131513ac64e19805e18be1167497e7c3f1e865dbc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/16DuAG4k/versions/odRnaQxT/create_bitterballen-0.0.86%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = '16DuAG4k'
+version = 'odRnaQxT'

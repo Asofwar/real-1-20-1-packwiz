@@ -1,0 +1,16 @@
+filename = 'AchievementOptimizer-fabric-1.20.1-1.0.1.jar'
+name = 'Achievements Optimizer'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e46ee73fa4ade84ff3725125e3d015396df445ebb365001c599ee9831b719079888fbfc447a5941f7a2ef65e87051657eb8f50ae43b58c1575768b1ba716935a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SvXrP8rT/versions/za09U0fF/AchievementOptimizer-fabric-1.20.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'SvXrP8rT'
+version = 'za09U0fF'

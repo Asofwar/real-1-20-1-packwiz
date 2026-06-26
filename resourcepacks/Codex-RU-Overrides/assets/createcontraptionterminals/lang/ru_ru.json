@@ -1,0 +1,7 @@
+{
+  "createcontraptionterminals.ponder.terminals.header": "Использование простых терминалов хранения Tom с Create",
+  "createcontraptionterminals.ponder.terminals.text_1": "Терминалы хранения могут легко получить доступ к содержимому хранилищ.",
+  "createcontraptionterminals.ponder.terminals.text_2": "Терминалы работают и на собранных штуковинах.",
+  "createcontraptionterminals.ponder.terminals.text_3": "Терминал позволяет получить доступ ко всему инвентарю приспособления.",
+  "tooltip.cct.worksOnContraptions": "Работает над созданием приспособлений"
+}

@@ -1,0 +1,16 @@
+filename = 'Tide-fabric-1.20.1-1.5.0.jar'
+name = 'Tide'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '180cead329149f0707acd56ab6e64198c71ab1070ab8d5357f9628b1b1f8321a7be17ff79ca5117d55b5a489694ef9608b721ea42f492a3e815a87619c66858e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/die1AF7i/versions/bAiIze17/Tide-fabric-1.20.1-1.5.0.jar'
+
+[update.modrinth]
+mod-id = 'die1AF7i'
+version = 'bAiIze17'

@@ -1,0 +1,4 @@
+{
+  "config.autorun.toggleAutoJump": "Переключить автоматический прыжок",
+  "config.autorun.toggleAutoJump.description": "Включить автоматический переход, пока активен автоматический запуск."
+}

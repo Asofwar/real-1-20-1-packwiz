@@ -1,0 +1,16 @@
+filename = 'createrailwaysnavigator-fabric-1.20.1-beta-0.7.2.jar'
+name = 'Create Railways Navigator'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c33199fab45eee6a2b504d4e7c6525096c84369f919237af994829259f126b0f194667356450770d452cee7b49d62beea11ed4234f5175d4bc4689309f977c6a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Dq3STxps/versions/BNIhuyhA/createrailwaysnavigator-fabric-1.20.1-beta-0.7.2.jar'
+
+[update.modrinth]
+mod-id = 'Dq3STxps'
+version = 'BNIhuyhA'

@@ -1,0 +1,16 @@
+filename = 'vivecraft-1.20.1-1.2.5-fabric.jar'
+name = 'Vivecraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9a82faed6bba678a874bc4cd2a712d25b5a34a9dfb5686d7ce80314d849e4d146623d055f8d971389e27591f3a751d7c7c7b0fb3157bf558aa3c39f93908985f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wGoQDPN5/versions/9Sa2NEEb/vivecraft-1.20.1-1.2.5-fabric.jar'
+
+[update.modrinth]
+mod-id = 'wGoQDPN5'
+version = '9Sa2NEEb'

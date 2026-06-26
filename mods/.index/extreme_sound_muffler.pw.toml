@@ -1,0 +1,16 @@
+filename = 'ExtremeSoundMuffler-3.48-fabric-1.20.1.jar'
+name = 'Extreme sound muffler'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '74236f1e6f30a2250a1278bf13ffc042993f2d420e5d78f88ecc5d4aefa93f058c0b2f2c824228ced30b6d1c749ac1f678d9b397c5f2f9723afaae9ad0a63fc7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5IIKsxiL/versions/9STihLXt/ExtremeSoundMuffler-3.48-fabric-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '5IIKsxiL'
+version = '9STihLXt'

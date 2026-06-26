@@ -1,0 +1,16 @@
+filename = 'exposure-1.20.1-1.7.9-fabric.jar'
+name = 'Exposure'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '302a5b229c36471d8e28317d5e5c46b9a76855db2ef0603200e3250959a6ce5cfbf4b092de8c517ab263f962228ffdee9139f68589f2897308b5a59c9db3a47f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hB899VmG/versions/KabyWNt2/exposure-1.20.1-1.7.9-fabric.jar'
+
+[update.modrinth]
+mod-id = 'hB899VmG'
+version = 'KabyWNt2'

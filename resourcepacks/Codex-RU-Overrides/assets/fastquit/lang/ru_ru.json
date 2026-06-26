@@ -1,0 +1,21 @@
+{
+  "fastquit.config.general": "Общий",
+  "fastquit.config.performance": "Производительность",
+  "fastquit.config.compat": "Совместимость модов",
+  "fastquit.config.compat.allowMultipleServers": "Разрешить несколько запущенных миров",
+  "fastquit.config.compat.allowMultipleServers.description": "Когда эта опция включена, вы можете присоединиться к новому миру, пока старый еще сохраняется.\nЭто безопасно делать в ванильном Minecraft, но в некоторых модах могут возникнуть проблемы при одновременной работе двух серверов.",
+  "fastquit.config.compat.allowMultipleServers.disabledForCompat": "§cЭта опция отключена, чтобы избежать проблем со следующими модами:\n%s",
+  "text.autoconfig.fastquit.category.default": "Общий",
+  "text.autoconfig.fastquit.option.renderSavingScreen": "Рендер экрана «Спасение мира»",
+  "text.autoconfig.fastquit.option.renderSavingScreen.@Tooltip": "При игре на большом расстоянии рендеринга выход из мира все равно может занять некоторое время, поскольку необходимо очистить хранилище фрагментов на стороне клиента.\nПри включении этой настройки будет отображаться экран «Сохранение мира».",
+  "text.autoconfig.fastquit.option.showToasts": "Показать тосты",
+  "text.autoconfig.fastquit.option.showToasts.@Tooltip": "Определяет, будет ли отображаться всплывающее уведомление, когда мир завершает сохранение.",
+  "text.autoconfig.fastquit.option.showSavingTime": "Показать экономию времени",
+  "text.autoconfig.fastquit.option.showSavingTime.@Tooltip": "Определяет, будет ли время, затраченное на спасение мира, отображаться во всплывающих сообщениях и в списке мира.",
+  "text.autoconfig.fastquit.category.performance": "Производительность",
+  "text.autoconfig.fastquit.option.backgroundPriority": "Приоритет фонового потока",
+  "text.autoconfig.fastquit.option.backgroundPriority.@Tooltip": "Устанавливает приоритет потока сервера при сохранении миров в фоновом режиме.\nЭто сделано для повышения производительности клиента при сохранении, но в целом сохранение займет больше времени.",
+  "text.autoconfig.fastquit.category.compat": "Совместимость модов",
+  "text.autoconfig.fastquit.option.allowMultipleServers": "Разрешить несколько запущенных миров",
+  "text.autoconfig.fastquit.option.allowMultipleServers.@Tooltip": "Когда эта опция включена, вы можете присоединиться к новому миру, пока старый еще сохраняется.\nЭто безопасно делать в ванильном Minecraft, но в некоторых модах могут возникнуть проблемы при одновременной работе двух серверов."
+}

@@ -1,0 +1,12 @@
+name = "Real 1-20-1 Mac"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "704ac78ccb84d9a481569aaa6b0ce910a92ef24ffc175bc79b3c323bd8e22fa0"
+
+[versions]
+fabric = "0.16.10"
+minecraft = "1.20.1"

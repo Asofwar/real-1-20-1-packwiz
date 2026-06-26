@@ -1,0 +1,4 @@
+{
+  "configurable.yacl.not_installed": "YetAnotherConfigLib не установлен!",
+  "configurable.yacl.not_installed.message": "YACL необходим для редактирования конфигурации в игре. Хотите установить YACL?"
+}

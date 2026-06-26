@@ -1,0 +1,21 @@
+{
+  "fastback.help.command.set": "Измените настройки конфигурации.",
+  "fastback.help.suggest-init": "\nЧтобы начать, введите «/backup init».",
+  "fastback.chat.backup-complete-elapsed": "Резервное копирование завершено.  Прошло время: %s",
+  "fastback.chat.commit-failed": "Резервное копирование не удалось.  Подробности смотрите в журнале.",
+  "fastback.chat.commit-start": "Создание резервной копии %s",
+  "fastback.chat.info-header": "\nИнформация о FastBack\n-------------",
+  "fastback.chat.info-native-git": "родной-git: %s",
+  "fastback.chat.info-native-git-version": "   мерзавец: %s",
+  "fastback.chat.info-native-git-lfs-version": "   git-lfs: %s",
+  "fastback.chat.missing-argument": "Отсутствует аргумент: %s.",
+  "fastback.chat.ok": "ок",
+  "fastback.chat.world-save": "Сохранение мира перед резервным копированием...",
+  "fastback.message.backing-up": "Резервное копирование...",
+  "fastback.broadcast.message": "Сервер начинает резервное копирование.",
+  "fastback.retain.gfs.description": "GFS: сохранять каждую резервную копию сегодня + последнюю ежедневную резервную копию за последнюю неделю + последнюю еженедельную резервную копию за последний месяц + последнюю резервную копию каждого месяца.",
+  "fastback.values.disabled": "отключен",
+  "fastback.values.enabled": "включен",
+  "fastback.values.none": "нет",
+  "fastback.values.not-installed": "не установлен"
+}

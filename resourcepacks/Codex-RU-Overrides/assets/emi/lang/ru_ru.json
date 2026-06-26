@@ -1,0 +1,13 @@
+{
+  "emi.sidebar.type.index.description": "Отображает все стопки",
+  "emi.sidebar.type.craftables.description": "Отображает все создаваемые стопки.",
+  "emi.sidebar.type.favorites.description": "Отображает избранное",
+  "emi.sidebar.type.lookup_history.description": "Отображает ранее просмотренные стеки",
+  "emi.sidebar.type.craft_history.description": "Отображает ранее созданные стопки",
+  "emi.sidebar.type.empty": "Пустой",
+  "emi.sidebar.type.empty.description": "Ничего не отображает",
+  "emi.sidebar.type.chess.description": "шахматы",
+  "config.emi.presets.low_distraction": "Низкое отвлечение",
+  "emi.sidebar.cycle": "Нажмите %s, чтобы переключить боковые панели.",
+  "emi.sidebar.favorite_stack": "Нажмите %s, чтобы добавить/удалить избранный стек."
+}

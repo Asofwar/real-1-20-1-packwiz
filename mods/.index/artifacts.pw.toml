@@ -1,0 +1,16 @@
+filename = 'artifacts-fabric-9.5.13.jar'
+name = 'Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c527ad2f48878aad8b2611191062d53a9db4cf5b10b573263799e68d499c62ba25767b486889ad9310f117c4e739a8eca901524cc76115dffda51ae65f979720'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/P0Mu4wcQ/versions/ddhoLf22/artifacts-fabric-9.5.13.jar'
+
+[update.modrinth]
+mod-id = 'P0Mu4wcQ'
+version = 'ddhoLf22'

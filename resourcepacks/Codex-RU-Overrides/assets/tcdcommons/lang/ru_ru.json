@@ -1,0 +1,14 @@
+{
+  "tcdcommons.github.sponsors": "Спонсоры GitHub",
+  "tcdcommons.github.sponsors.no_sponsors": "На данный момент никто не спонсирует этот проект.",
+  "tcdcommons.special_thanks": "Особая благодарность",
+  "tcdcommons.featured": "Рекомендуемые",
+  "tcdcommons.featured.no_one": "На данный момент в этом списке никого нет.",
+  "tcdcommons.fetch_fail": "Не удалось получить информацию.",
+  "tcdcommons.api.client.gui.panel.tpanelelement.mouse_scroll_tip": "Используйте колесо прокрутки мыши или щелкните левой кнопкой мыши и перетащите, чтобы прокрутить этот раздел...",
+  "commands.badges.edit.output": "Отредактирована статистика значка игрока «%s» для игроков %s.",
+  "commands.badges.clear.output": "Очищена вся статистика значков игроков для игроков %s.",
+  "commands.badges.chat_grant": "%s получил значок игрока %s.",
+  "commands.badges.query.output": "Значение статистики значка игрока %s для «%s» — %s.",
+  "tcdcommons.key.refresh_current_screen": "Обновить текущий экран"
+}

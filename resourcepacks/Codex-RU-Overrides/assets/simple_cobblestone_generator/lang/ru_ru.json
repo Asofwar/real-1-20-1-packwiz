@@ -1,0 +1,19 @@
+{
+  "containers.generator_tier1": "Генератор булыжника Уровень 1",
+  "containers.generator_tier2": "Генератор булыжника Уровень 2",
+  "containers.generator_tier3": "Генератор булыжника Уровень 3",
+  "containers.generator_tier4": "Генератор булыжника Уровень 4",
+  "containers.generator_tier5": "Генератор булыжника Уровень 5",
+  "containers.generator_tier6": "Генератор булыжника Уровень 6",
+  "block.simple_cobblestone_generator.generator_tier1": "Генератор булыжника Уровень 1",
+  "block.simple_cobblestone_generator.generator_tier2": "Генератор булыжника Уровень 2",
+  "block.simple_cobblestone_generator.generator_tier3": "Генератор булыжника Уровень 3",
+  "block.simple_cobblestone_generator.generator_tier4": "Генератор булыжника Уровень 4",
+  "block.simple_cobblestone_generator.generator_tier5": "Генератор булыжника Уровень 5",
+  "block.simple_cobblestone_generator.generator_tier6": "Генератор булыжника Уровень 6",
+  "itemGroup.simple_cobblestone_generator.group": "Простой генератор булыжника",
+  "lang.simple_cobblestone_generator.generates_every": "Генерирует %d булыжника семьи",
+  "lang.simple_cobblestone_generator.tick": "тик",
+  "lang.simple_cobblestone_generator.ticks": "%d тиков",
+  "lang.simple_cobblestone_generator.tooltip": "Может выводить критерии в инвентарь сверху"
+}

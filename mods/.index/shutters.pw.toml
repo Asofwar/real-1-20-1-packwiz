@@ -1,0 +1,16 @@
+filename = 'shutter-2.0.5-fabric-1.20.4.jar'
+name = 'Shutters'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0291d775f0571fd8ee568b188fc9f1fd8f9037b59ffdf266200c69648fc1fc421adb625b64046bea114eed5a3d9e5a3be6545a1956633f8afdd4d7d6546524c9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NjHNA0vG/versions/sansHhZf/shutter-2.0.5-fabric-1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'NjHNA0vG'
+version = 'sansHhZf'

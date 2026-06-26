@@ -1,0 +1,125 @@
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				player = true
+				squid = true
+				zombie = true
+				creeper = true
+				spider = true
+				glow_squid = true
+				drowned = true
+				painting = true
+				cat = true
+				boat = true
+				iron_golem = true
+				skeleton = true
+				sheep = true
+				pig = true
+				item = true
+				villager = true
+				chicken = true
+				cow = true
+				armor_stand = true
+				bat = true
+				donkey = true
+				enderman = true
+				horse = true
+				fox = true
+				witch = true
+				zombie_villager = true
+				zombified_piglin = true
+				slime = true
+				pillager = true
+				arrow = true
+				experience_orb = true
+				wandering_trader = true
+				trader_llama = true
+				egg = true
+				turtle = true
+				axolotl = true
+				salmon = true
+				cod = true
+				guardian = true
+				chest_minecart = true
+				rabbit = true
+				bee = true
+				wolf = true
+				tropical_fish = true
+				leash_knot = true
+				glow_item_frame = true
+				item_frame = true
+				potion = true
+				snowball = true
+				lightning_bolt = true
+				husk = true
+				camel = true
+				dolphin = true
+
+			[light_sources.settings.entities.tide]
+				bluegill = true
+				bass = true
+				yellow_perch = true
+				mint_carp = true
+				trout = true
+				catfish = true
+				pike = true
+				mackerel = true
+				barracuda = true
+				tuna = true
+				ocean_perch = true
+				clayfish = true
+				angelfish = true
+				guppy = true
+
+			[light_sources.settings.entities.automobility]
+				automobile = true
+
+			[light_sources.settings.entities.naturalist]
+				robin = true
+				firefly = true
+				sparrow = true
+				coral_snake = true
+				snake = true
+				butterfly = true
+				lizard = true
+				deer = true
+				canary = true
+				snail = true
+				duck = true
+				boar = true
+				finch = true
+				bluejay = true
+				bear = true
+				cardinal = true
+				vulture = true
+				tortoise = true
+
+			[light_sources.settings.entities.promenade]
+				duck = true
+				lush_creeper = true
+				capybara = true
+				sunken_skeleton = true
+
+			[light_sources.settings.entities.fishofthieves]
+				splashtail = true
+				wildsplash = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.vinery]
+				wandering_winemaker = true
+				mule = true
+

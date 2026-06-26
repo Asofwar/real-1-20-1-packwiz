@@ -1,0 +1,5 @@
+{
+  "toast.polytone.load_fail": "Проверьте журналы/polytone.log",
+  "toast.polytone.lazy_load_fail": "Ошибка поздней перезагрузки ресурса Polytone",
+  "toast.polytone.early_load_fail": "Ошибка ранней перезагрузки ресурсов Polytone"
+}

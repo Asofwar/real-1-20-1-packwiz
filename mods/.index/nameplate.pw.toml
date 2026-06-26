@@ -1,0 +1,16 @@
+filename = 'nameplate-1.1.4.jar'
+name = 'Nameplate'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd6b433cbb014c51637c654e7a0de11ac47cd33b2eb02fc9b576a0f7b71b9d47035c3b2efcbb2d87d718ecd2ea367a9c2a28dd2aa1ba22e3b7cb36c4df67e20ce'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9J82qMn9/versions/mFgPkM5x/nameplate-1.1.4.jar'
+
+[update.modrinth]
+mod-id = '9J82qMn9'
+version = 'mFgPkM5x'

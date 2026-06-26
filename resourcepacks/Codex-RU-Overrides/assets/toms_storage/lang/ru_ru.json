@@ -1,0 +1,6 @@
+{
+  "tomsstorage.config.inv_blocked_blocks": "Список идентификаторов блоков, игнорируемых соединителем инвентаря",
+  "tomsstorage.config.inv_blocked_mods": "Список идентификаторов модов, блоки которых игнорируются соединителем инвентаря",
+  "text.autoconfig.toms_storage.option.blockedBlocks": "Список идентификаторов блоков, игнорируемых соединителем инвентаря",
+  "text.autoconfig.toms_storage.option.blockedMods": "Список идентификаторов модов, блоки которых игнорируются соединителем инвентаря"
+}

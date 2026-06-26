@@ -1,0 +1,16 @@
+filename = 'xplus-autofish-1.3.1-fabric-mc1.20.1.jar'
+name = 'XPlus Autofish (Fabric / Forge / NeoForge)'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9ff1a0a93d52620a317e99a68ec966532a6db7f8757550e5eddf57a1c2052dd84680a5230e0e138281249898672e87e5c1daee9a50191f862df68f99cad1fdea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2H1rLgy4/versions/XJuipL0d/xplus-autofish-1.3.1-fabric-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = '2H1rLgy4'
+version = 'XJuipL0d'

@@ -1,0 +1,23 @@
+{
+  "block.createdieselgenerators.oil_barrel": "Нефтяная бочка",
+  "block.createdieselgenerators.chip_wood_beam": "Чиповая деревянная балка",
+  "createdieselgenerators.pumpjack_bearing.tooltip.condition1": "Когда R-щелкнул гаечным ключом.",
+  "createdieselgenerators.pumpjack_bearing.tooltip.behaviour1": "Превращается в _Петлю_ для _Pumpjack Cranks_.",
+  "createdieselgenerators.engine_silencer.tooltip.condition1": "Когда R-нажал на двигатель.",
+  "createdieselgenerators.engine_silencer.tooltip.behaviour1": "Применяет это _Обновление_ к _Engine_.",
+  "createdieselgenerators.engine_turbocharger.tooltip.condition1": "Когда R-нажал на двигатель.",
+  "createdieselgenerators.engine_turbocharger.tooltip.behaviour1": "_Применяет_ это _Обновление_ на _Двигателе_.",
+  "createdieselgenerators.lighter.tooltip.condition1": "Когда R-щелкнул.",
+  "createdieselgenerators.lighter.tooltip.behaviour1": "_Закрывает_ или _открывает_ и пытается зажечь_.",
+  "createdieselgenerators.lighter.tooltip.condition2": "При нажатии Shift R.",
+  "createdieselgenerators.lighter.tooltip.behaviour2": "_Закрывается_ или _открывается_ без _зажигания_.",
+  "createdieselgenerators.chemical_sprayer.tooltip.condition1": "Когда R-щелкнул.",
+  "createdieselgenerators.chemical_sprayer.tooltip.behaviour1": "Начинает _распыление_ _Жидкости_ в _Баке_.",
+  "createdieselgenerators.chemical_sprayer_lighter.tooltip.condition1": "Когда R-щелкнул.",
+  "createdieselgenerators.chemical_sprayer_lighter.tooltip.behaviour1": "Начинает _распыление_ _Жидкости_ в _Баке_. Пытается поджечь _Жидкость_.",
+  "createdieselgenerators.oil_scanner.tooltip.condition1": "Когда R-щелкнул.",
+  "createdieselgenerators.oil_scanner.tooltip.behaviour1": "Начинает _сканирование_ _Залежей сырой нефти_.",
+  "createdieselgenerators.oil_barrel.tooltip.summary": "Магазины _Fluids_ для вас. Может располагаться как _горизонтально_, так и _вертикально_.",
+  "createdieselgenerators.oil_barrel.tooltip.condition1": "Когда R-щелкнул красителем.",
+  "createdieselgenerators.oil_barrel.tooltip.behaviour1": "_Красит_ блок."
+}

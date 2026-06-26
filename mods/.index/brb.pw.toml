@@ -1,0 +1,16 @@
+filename = 'brb-1.10.0-rc5+1.20.0-1.jar'
+name = 'Better Recipe Book'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '1e0d53d553d114a939f07c55a63a1317313d926ca633535225fbeb855b3017aa58277f13e4d29cc5dc89c01b24e0990411fe39bfe53c4c80c39a4dfcaa2c54f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vWIaVOTE/versions/1aOgaVwt/brb-1.10.0-rc5%2B1.20.0-1.jar'
+
+[update.modrinth]
+mod-id = 'vWIaVOTE'
+version = '1aOgaVwt'

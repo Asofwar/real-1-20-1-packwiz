@@ -1,0 +1,16 @@
+filename = 'ConfigurableDataFixers-1.2.2-Fabric+1.20.1.jar'
+name = 'Configurable Data Fixers'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9367cb4d710fb0efa8b905b8885c2f6f4b536c19408f6499912cac600b9c163a05b211044edce561f07d7cf56a79b1e12f202286cc56d2c5f968931b345c74f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PHMZEiGl/versions/wUqvwjl1/ConfigurableDataFixers-1.2.2-Fabric%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'PHMZEiGl'
+version = 'wUqvwjl1'

@@ -1,0 +1,16 @@
+{
+  "item.mcwtrpdoors.print_whispering": "Отпечаток шепчущего люка",
+  "mcwtrpdoors.crafting.desc": "Крафтовый ингредиент",
+  "block.mcwtrpdoors.bamboo_bark_trapdoor": "Люк из бамбуковой коры",
+  "block.mcwtrpdoors.oak_whispering_trapdoor": "Дубовый шепот-люк",
+  "block.mcwtrpdoors.spruce_whispering_trapdoor": "Еловый шепот-люк",
+  "block.mcwtrpdoors.birch_whispering_trapdoor": "Березовый шепот-люк",
+  "block.mcwtrpdoors.jungle_whispering_trapdoor": "Люк «Шепч джунглей»",
+  "block.mcwtrpdoors.acacia_whispering_trapdoor": "Шепчущий люк акации",
+  "block.mcwtrpdoors.dark_oak_whispering_trapdoor": "Шепчущий люк Темного Дуба",
+  "block.mcwtrpdoors.mangrove_whispering_trapdoor": "Люк с шепотом мангровых зарослей",
+  "block.mcwtrpdoors.warped_whispering_trapdoor": "Искажённый шепот-люк",
+  "block.mcwtrpdoors.crimson_whispering_trapdoor": "Багровый шепот-люк",
+  "block.mcwtrpdoors.bamboo_whispering_trapdoor": "Бамбуковый шепот-люк",
+  "block.mcwtrpdoors.cherry_whispering_trapdoor": "Вишневый шепот-люк"
+}

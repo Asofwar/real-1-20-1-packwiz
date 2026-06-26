@@ -1,0 +1,16 @@
+filename = 'GrassOverhaul-Fabric-1.20.1-v25.01.31.jar'
+name = 'Grass Overhaul'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '636bd91f7ae582f3c6bf607e591c63f7663a287d22dc8d47c3ce89a8f40cb09d00d500acff32fae2aeb3945e876c5130269939511007a118673c79b0dc472d66'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Eeb4VkF6/versions/t2NIt8Pe/GrassOverhaul-Fabric-1.20.1-v25.01.31.jar'
+
+[update.modrinth]
+mod-id = 'Eeb4VkF6'
+version = 't2NIt8Pe'

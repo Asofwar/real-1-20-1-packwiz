@@ -1,0 +1,21 @@
+{
+  "advancements.adventure.trim_with_any_armor_pattern.description": "Обрежьте инструмент или часть брони на кузнечном столе.",
+  "item.minecraft.smithing_template.armor_trim.base_slot_description": "Добавьте инструмент или часть брони",
+  "item.minecraft.smithing_template.armor_trim.applies_to": "Броня и инструменты",
+  "trim_pattern.minecraft.coast": "Береговой узор",
+  "trim_pattern.minecraft.dune": "Узор Дюны",
+  "trim_pattern.minecraft.eye": "Узор Глаз",
+  "trim_pattern.minecraft.host": "Шаблон хоста",
+  "trim_pattern.minecraft.raiser": "Модель рейзера",
+  "trim_pattern.minecraft.rib": "Ребристый узор",
+  "trim_pattern.minecraft.sentry": "Модель «Страж»",
+  "trim_pattern.minecraft.shaper": "Шаблон Формирователя",
+  "trim_pattern.minecraft.silence": "Тишина",
+  "trim_pattern.minecraft.snout": "Морда",
+  "trim_pattern.minecraft.spire": "Шпиль",
+  "trim_pattern.minecraft.tide": "Модель прилива",
+  "trim_pattern.minecraft.vex": "Образец вексов",
+  "trim_pattern.minecraft.ward": "Образец тотема",
+  "trim_pattern.minecraft.wayfinder": "Указатель пути",
+  "trim_pattern.minecraft.wild": "Дикий узор"
+}

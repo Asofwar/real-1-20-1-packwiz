@@ -1,0 +1,16 @@
+filename = 'uranus-2.2.2-1.20.1-fabric.jar'
+name = 'Uranus'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '090aeb2a71e40e05b64b88312a615ec10bed07794134d2817a2d068dbc87f55df8d5a0bce71d67b62668b08873d3c7af6d2dd03177c54e5ac1a7806c7a89f0cb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3Acxy864/versions/PX90nVpR/uranus-2.2.2-1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = '3Acxy864'
+version = 'PX90nVpR'

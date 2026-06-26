@@ -1,0 +1,11 @@
+{
+  "particle_core.particle_core_config.NONE.desc": "Никакие частицы зелий не будут отключены.",
+  "particle_core.particle_core_config.SELF.desc": "Частицы зелий, испускаемые вами, будут отключены.",
+  "particle_core.particle_core_config.PLAYER.desc": "Частицы зелий, испускаемые всеми игроками (включая вас), будут отключены.",
+  "particle_core.particle_core_config.ALL.desc": "Все частицы зелий будут отключены.",
+  "particle_core.particle_core_config.turnOffPotionParticles.desc": "Отключает частицы зелья в разной степени, в зависимости от выбора.",
+  "particle_core.particle_core_config.reduceAllChance.desc": "[Значение от 0,0 до 1,0] Отключает частицы в режиме ВСЕ. Бывший. 0,1 приведет к УМЕНЬШЕНИЮ 10% частиц. По сути, это выбор между ВСЕМИ и УМЕНЬШЕННЫМИ.",
+  "particle_core.particle_core_config.reduceDecreasedChance.desc": "[Значение от 0,0 до 1,0] Уменьшает количество частиц в режиме УМЕНЬШЕНИЕ. Бывший. 0,1 составит 10% частиц МИНИМАЛЬНЫМИ. По сути, это выбор между УМЕНЬШЕННЫМ и МИНИМАЛЬНЫМ.",
+  "particle_core.particle_core_config.disableParticles.desc": "[правда или ложь] Полностью отключает все частицы на клиенте.",
+  "particle_core.particle_core_config.byTypeReductions.desc": "Позволяет уменьшить/отключить отдельные типы частиц. Бывший. установка «minecraft:smoke» на 0,3 приведет к появлению частиц дыма и костра со скоростью 30% от их нормальной скорости."
+}

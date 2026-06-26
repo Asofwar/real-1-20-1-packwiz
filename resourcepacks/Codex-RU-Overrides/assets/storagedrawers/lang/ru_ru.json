@@ -1,0 +1,11 @@
+{
+  "block.storagedrawers.mat.framed": "В рамке",
+  "block.storagedrawers.framed_compacting_drawers_2": "Каркасные уплотняющие ящики (2-уровневые)",
+  "block.storagedrawers.framed_compacting_drawers_3": "Каркасные уплотняющие ящики (3-уровневые)",
+  "block.storagedrawers.framed_compacting_half_drawers_2": "Уплотняющие полуящики в рамке (2 уровня)",
+  "block.storagedrawers.framed_compacting_half_drawers_3": "Уплотняющие полуящики в рамке (3-х уровневые)",
+  "block.storagedrawers.framed_controller": "Контроллер ящика в рамке",
+  "block.storagedrawers.framed_controller_io": "Подчиненный контроллер выдвижного ящика в рамке",
+  "block.storagedrawers.framing_table": "Стол для обрамления",
+  "container.storagedrawers.framing_table": "Стол для обрамления"
+}

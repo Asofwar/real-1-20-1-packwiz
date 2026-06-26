@@ -1,0 +1,7 @@
+{
+  "malilib.label.message_output_type.none": "Нет",
+  "malilib.label.message_output_type.actionbar": "Панель действий",
+  "malilib.label.message_output_type.message": "Сообщение",
+  "malilib.gui.title.color_list_edit": "Изменить список цветов для «%s»",
+  "malilib.hover.color_indicator.open_color_editor": "Открыть редактор цветов"
+}

@@ -1,0 +1,18 @@
+{
+  "createaddition.tooltip.tesla_coil.info": "Информация о катушке Тесла:",
+  "emi.category.createaddition.rolling": "Роллинг",
+  "emi.category.createaddition.charging": "Зарядка",
+  "createaddition.recipe.charging.sequence_0": "Зарядка ",
+  "createaddition.recipe.charging.sequence_1": "на катушке Теслы",
+  "emi.category.createaddition.liquid_burning": "Жидкое горение",
+  "item.createaddition.diamond_grit_sandpaper.tooltip.summary": "Может использоваться для _уточнения материалов_. Этот процесс можно автоматизировать с помощью Deployer.",
+  "item.createaddition.diamond_grit_sandpaper.tooltip.condition1": "При использовании",
+  "item.createaddition.diamond_grit_sandpaper.tooltip.behaviour1": "Применяет полировку к предметам, которые держат в левой руке или лежат на полу, когда смотрят на них.",
+  "item.createaddition.copper_spool.tooltip.summary": "Используется для хранения проводов.",
+  "item.createaddition.festive_spool.tooltip.summary": "Используется для хранения проводов.",
+  "item.createaddition.gold_spool.tooltip.summary": "Используется для хранения проводов.",
+  "item.createaddition.electrum_spool.tooltip.summary": "Используется для хранения проводов.",
+  "item.createaddition.spool.tooltip.summary": "Используется для хранения проводов.",
+  "createaddition.subtitle.loud_zap": "Катушка Тесла",
+  "createaddition.subtitle.little_zap": "Катушка Тесла искры"
+}

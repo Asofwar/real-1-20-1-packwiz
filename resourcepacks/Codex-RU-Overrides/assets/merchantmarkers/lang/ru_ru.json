@@ -1,0 +1,5 @@
+{
+  "merchantmarkers.general.optifine_workaround_warning": "Optifine нарушает работу торговых маркеров при использовании шейдеров без быстрого рендеринга.  Торговые маркеры включили опцию быстрого рендеринга.",
+  "merchantmarkers.key.showMarkers": "Показать маркеры жителей деревни",
+  "merchantmarkers.key.categories.merchantMarkers": "Маркеры торговцев"
+}

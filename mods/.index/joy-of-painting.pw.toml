@@ -1,0 +1,16 @@
+filename = 'xercapaint-fabric-1.20.1-1.0.1.jar'
+name = 'Joy of Painting'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '37c0c1d288ebf9975a8b0ee8d5d9df366199110de2b06fe4bda7f91b0460a3cb3bf1351fa3cd9109d0f2441f0bc2bc641df53ec811dd54793deb7a2e177dd6da'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YOs4tZea/versions/laTdPpfY/xercapaint-fabric-1.20.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'YOs4tZea'
+version = 'laTdPpfY'

@@ -1,0 +1,20 @@
+{
+  "jupiter.screen.back": "Назад",
+  "jupiter.screen.button.remove": "Удалить",
+  "jupiter.screen.button.reset": "Сброс",
+  "jupiter.screen.check_server": "Проверяем разрешение...",
+  "jupiter.screen.client_config": "Конфигурация клиента",
+  "jupiter.screen.current_modifying_client": "Текущая изменяющаяся конфигурация клиента",
+  "jupiter.screen.current_modifying_dedicate_server": "Текущее изменение конфигурации выделенного сервера",
+  "jupiter.screen.current_modifying_local_server": "Текущее изменение конфигурации локального сервера",
+  "jupiter.screen.disable_client": "Конфигурация клиента отключена или не предоставлена",
+  "jupiter.screen.disable_server": "Нет разрешения",
+  "jupiter.screen.error_server": "Получение неверных данных конфигурации сервера",
+  "jupiter.screen.open_client": "Открыть конфигурацию клиента",
+  "jupiter.screen.open_server": "Открыть конфигурацию сервера",
+  "jupiter.screen.restart_required": "(Требуется перезагрузка)",
+  "jupiter.screen.server_config": "Конфигурация сервера",
+  "jupiter.test_config": "Тестовая конфигурация",
+  "jupiter.toast.upload_config_error_content": "Разрешение отклонено",
+  "jupiter.toast.upload_config_error_title": "Не удалось изменить конфигурацию сервера."
+}

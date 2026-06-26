@@ -3,7 +3,7 @@ version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
-file = "index.toml"
+file = "index-main.toml"
 hash-format = "sha256"
 hash = "395fd4225a5d6ea09603333a4f4e0b41cbb3afcd0a512ebdaec2fe6f103618ae"
 

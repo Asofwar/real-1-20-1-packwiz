@@ -1,5 +1,4 @@
 hash-format = "sha256"
-
 [[files]]
 file = "README.md"
 hash = "573a912cdc3956a09e1e89b68347efdca155b5235dacda7876b177a5708b6a7b"
@@ -11,26 +10,6 @@ hash = "6003299fd97cb6b383ca3df88a2a676c565585799b1e14bb2987617ee189c7c2"
 [[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
-
-[[files]]
-file = "config/NoChatReports/NCR-Client.json"
-hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
-
-[[files]]
-file = "config/NoChatReports/NCR-Common.json"
-hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
-
-[[files]]
-file = "config/NoChatReports/NCR-Encryption.json"
-hash = "0f61ac30bfc78653a30d715f793e30a6a43d6715106706487efd0aea5d43a84c"
-
-[[files]]
-file = "config/NoChatReports/NCR-ServerPreferences.json"
-hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
-
-[[files]]
-file = "config/NoChatReports/README.md"
-hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
 
 [[files]]
 file = "config/TabTPS/display-configs/default.conf"
@@ -2169,11 +2148,6 @@ file = "mods/naturalist-fabric-4.0.3-1.20.1 (1).jar"
 hash = "39bb19f571f920de7146c81123990d6e5c7f0862b74507beb4d2510c4f03b717"
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
-hash = "218e7b9a51dccc3981cc1a38b538391b5407157faa2eed12915cc42259599abc"
-metafile = true
-
-[[files]]
 file = "mods/noisium-fabric-2.3.0+mc1.20-1.20.1.jar"
 hash = "266ef6f28ee69f91acce6ca991121c21f2944e76f366475778347d90d33b491d"
 
@@ -2815,10 +2789,6 @@ hash = "ce57b0d77f68d03124efcb02670b14d2348095d4d53ad02b6e3fa82507829c60"
 [[files]]
 file = "resourcepacks/Codex-RU-Overrides/assets/necronomicon/lang/ru_ru.json"
 hash = "e9d7ae6ebf07e1f541c35b14e41fe388bf9488f91f66c7e0263862b8c3fa0a52"
-
-[[files]]
-file = "resourcepacks/Codex-RU-Overrides/assets/nochatreports/lang/ru_ru.json"
-hash = "2664d20462b7f6275f81779a685976c3d9265eadea0ad3395cfb6082e758c975"
 
 [[files]]
 file = "resourcepacks/Codex-RU-Overrides/assets/particle_core/lang/ru_ru.json"

@@ -1331,7 +1331,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "92c74b0a5a615514d1edfee0124aefcc83a8af6b231bae0892ec238852d60a1b"
+hash = "54cb411caf36a44fb5f55ceeba63c87da2c3959e7f90b4e84233c01c8ebd4d5f"
 metafile = true
 
 [[files]]
@@ -1378,7 +1378,7 @@ hash = "c14811be4acad095e7b79a438c8169a3be9d39667c6572881c6cf311ddefb2e5"
 
 [[files]]
 file = "mods/better-advancements.pw.toml"
-hash = "857f89175a06521c621008f35fc4a3695211fbf4235f100d348dd46b46058371"
+hash = "f1a3eace5417b4d5782d298b47f6739afc948759b50511cc0d7d2c7083bea5b1"
 metafile = true
 
 [[files]]
@@ -1728,7 +1728,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "0098fabc9146678a93b2d6eaa12cce710de4567610214ae48c27c129864c9327"
+hash = "e3370b99fee332428fa531f30692783c2b68d951a7744f565c2107cf45e77980"
 metafile = true
 
 [[files]]
@@ -1752,7 +1752,7 @@ hash = "ea6d5837327a227315c85f4366515e35fd5c7c165b3631ecf3298ec4d9547f98"
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "da51d2bc65b44cbf602a3c59a1a9b08cf9b468ac40e61d50ffc67ac6f6c28fce"
+hash = "9605f3f56fc1c9272bc89164d76da9505c57f89cd87f4b82c04d29499c0090ec"
 metafile = true
 
 [[files]]
@@ -1917,7 +1917,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "16cd6e5ac1f61924a83f608ecd02b4e6a1af0830a0f34c9899adcaf924c6074f"
+hash = "88928c23cb4da3eeaa9e17c0fbb477daa30bdca46e18f7d01f4eea94f64ccc07"
 metafile = true
 
 [[files]]
@@ -1981,7 +1981,7 @@ hash = "20433fb9a20f9450599bde4d8f0e8b0898eefdbda13e47d68430d31422c9f564"
 
 [[files]]
 file = "mods/language-reload.pw.toml"
-hash = "6e7a6c6d4f16de2483034973b9c67726c0d844bd544c5b659233b3b308b4e057"
+hash = "be8fba4232d3526d87a33f7c38dffa3f4e2975ea0f185d88c7cfa78264fbd206"
 metafile = true
 
 [[files]]
@@ -2255,7 +2255,7 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud-fabric.pw.toml"
-hash = "2d11b2ee9c2fd66b04f9cc2dc0e703727ac66874d37a7f027b85eb5c3039f9f0"
+hash = "cb3180730386c647c75500dfaa21feab456102869649968fb512cd7b49f84399"
 metafile = true
 
 [[files]]
@@ -4564,12 +4564,12 @@ hash = "13af6c439ef8651916b18d2d658f134b07ce3c2e835d23d37d5d24c5d43284de"
 
 [[files]]
 file = "mods/animal-feeding-trough.pw.toml"
-hash = "f84d9becadfdcd1a114a0f2c0fdc9545d5a4930767b8857327896ba6907d6d9a"
+hash = "ded4e544ded26b160af34473bdf92c2d3cdb3c716be997102226ce2840141dfb"
 
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
-hash = "6ac77e74241577c32ba8c8becaaed7887df6b8050f46c1c433411b270ddbc48e"
+hash = "ca3dbba236b32b453c7c78f75f5298d61f6164f559b34bc5a130ed6f9f8fd74b"
 
 [[files]]
 file = "mods/immersive-weathering.pw.toml"
-hash = "b971deae13b1274e9c41d8d11e6693904a403bbae1519f766c66da893557acbe"
+hash = "319c04e805c58643fee44d069dcdfe7be45aab6f6e44e1d97041791a23a3f491"

@@ -35,9 +35,26 @@ jobs:
               root / "pack.toml",
               root / "pack-20260627.toml",
           ]
+          pw_files = sorted((root / "mods").glob("*.pw.toml"))
 
           for path in files:
               text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+              path.write_text(text, encoding="utf-8", newline="\n")
+
+          for path in pw_files:
+              text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+              path.write_text(text, encoding="utf-8", newline="\n")
+
+          for index_name in ("index-20260627.toml", "index-main.toml"):
+              path = root / index_name
+              text = path.read_text(encoding="utf-8")
+              for pw_file in pw_files:
+                  rel = pw_file.relative_to(root).as_posix()
+                  sha = hashlib.sha256(pw_file.read_bytes()).hexdigest()
+                  pattern = rf'(file = "{re.escape(rel)}"\nhash = ")[0-9a-f]+(")'
+                  text, count = re.subn(pattern, rf"\g<1>{sha}\2", text)
+                  if count != 1:
+                      raise SystemExit(f"Could not refresh hash for {rel} in {index_name}")
               path.write_text(text, encoding="utf-8", newline="\n")
 
           index_hash = hashlib.sha256((root / "index-20260627.toml").read_bytes()).hexdigest()
@@ -60,6 +77,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index-20260627.toml index-main.toml pack.toml pack-20260627.toml
+          git add .gitattributes mods/*.pw.toml index-20260627.toml index-main.toml pack.toml pack-20260627.toml
           git commit -m "Refresh packwiz hashes"
           git push

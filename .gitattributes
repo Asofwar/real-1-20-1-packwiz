@@ -1,4 +1,6 @@
 * text=auto eol=lf
+*.toml text eol=lf
+*.pw.toml text eol=lf
 *.jar binary
 *.zip binary
 *.png binary

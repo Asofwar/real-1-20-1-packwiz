@@ -80,11 +80,11 @@
 		#Enable integration with minimap mods?
 		#(true/false)
 		#Default is true.
-		enable_minimap_integration = true
+		enable_minimap_integration = false
 		#Show the default SeasonHUD display when the minimap is hidden?
 		#(true/false)
 		#Default is false.
-		enable_show_minimap_hidden = false
+		enable_show_minimap_hidden = true
 
 		[SeasonHUD.Minimap.Journeymap]
 			#Display the season above the JourneyMap minimap, instead of below.

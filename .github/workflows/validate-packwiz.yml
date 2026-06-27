@@ -22,3 +22,6 @@ jobs:
 
       - name: Verify packwiz hashes and line endings
         run: python scripts/verify_packwiz_hashes.py
+
+      - name: Validate recipe sanity
+        run: python scripts/validate_recipe_sanity.py

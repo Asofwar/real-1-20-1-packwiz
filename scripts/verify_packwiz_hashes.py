@@ -60,30 +60,26 @@ def verify() -> list[Failure]:
         if has_crlf_bytes(path):
             failures.append(Failure(f"{rel} contains CRLF line endings"))
 
-    pw_files = sorted((ROOT / "mods").glob("*.pw.toml"))
-    if not pw_files:
-        failures.append(Failure("No .pw.toml files found under mods/"))
-        return failures
-
-    for path in pw_files:
-        rel = path.relative_to(ROOT).as_posix()
-        if has_crlf_bytes(path):
-            failures.append(Failure(f"{rel} contains CRLF line endings"))
-
-    expected_pw_hashes = {
-        path.relative_to(ROOT).as_posix(): file_sha256(path) for path in pw_files
-    }
-
     parsed_indexes: dict[str, dict[str, str]] = {}
     for index_name in INDEX_FILES:
         index_path = ROOT / index_name
         parsed = parse_index(index_path)
         parsed_indexes[index_name] = parsed
-        for rel, expected_hash in expected_pw_hashes.items():
-            actual_hash = parsed.get(rel)
-            if actual_hash is None:
-                failures.append(Failure(f"{index_name} is missing entry for {rel}"))
-            elif actual_hash != expected_hash:
+        if not parsed:
+            failures.append(Failure(f"{index_name} does not contain any [[files]] entries"))
+            continue
+
+        for rel, actual_hash in parsed.items():
+            path = ROOT / Path(rel)
+            if not path.exists():
+                failures.append(Failure(f"{index_name} references missing file {rel}"))
+                continue
+
+            if path.suffix in {".toml", ".md"} and has_crlf_bytes(path):
+                failures.append(Failure(f"{rel} contains CRLF line endings"))
+
+            expected_hash = file_sha256(path)
+            if actual_hash != expected_hash:
                 failures.append(
                     Failure(
                         f"{index_name} has wrong hash for {rel}: expected {expected_hash}, got {actual_hash}"

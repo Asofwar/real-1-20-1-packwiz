@@ -1,7 +1,7 @@
 hash-format = "sha256"
 [[files]]
 file = "README.md"
-hash = "573a912cdc3956a09e1e89b68347efdca155b5235dacda7876b177a5708b6a7b"
+hash = "ff9a2b98fc9d438a671a6f3f9b901b3ef540217694eec2cb44b9e43664721b8d"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
@@ -913,7 +913,7 @@ hash = "7f726cabf1afbdbef68c342f1456a0d1b50d38785b8fe6fed8b3aec8cf1c8130"
 
 [[files]]
 file = "config/seasonhud-client.toml"
-hash = "608424f1868a0a75c17ebe137eba93be2914dd70e27b3957dc6723e90d20c302"
+hash = "27fffd5a85a1c87464dad9290c6508058f455bd4fb5c102f78016c231d0db2f0"
 
 [[files]]
 file = "config/seasons.json"

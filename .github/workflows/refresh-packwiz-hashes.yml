@@ -29,26 +29,31 @@ jobs:
           import re
 
           root = Path(".")
-          files = [
-              root / "index-main.toml",
-              root / "pack.toml",
-          ]
-          pw_files = sorted((root / "mods").glob("*.pw.toml"))
+          files = [root / "index-main.toml", root / "pack.toml"]
+          entry_re = re.compile(r'\[\[files\]\]\nfile = "([^"]+)"\nhash = "([0-9a-f]+)"')
+
+          index_path = root / "index-main.toml"
+          index_text = index_path.read_text(encoding="utf-8")
+          indexed_files = [root / rel for rel, _ in entry_re.findall(index_text)]
 
           for path in files:
               text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
               path.write_text(text, encoding="utf-8", newline="\n")
 
-          for path in pw_files:
+          for path in indexed_files:
+              if not path.exists():
+                  raise SystemExit(f"Indexed file is missing: {path.relative_to(root).as_posix()}")
+              if path.suffix not in {".toml", ".md"}:
+                  continue
               text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
               path.write_text(text, encoding="utf-8", newline="\n")
 
           for index_name in ("index-main.toml",):
               path = root / index_name
               text = path.read_text(encoding="utf-8")
-              for pw_file in pw_files:
-                  rel = pw_file.relative_to(root).as_posix()
-                  sha = hashlib.sha256(pw_file.read_bytes()).hexdigest()
+              for file_path in indexed_files:
+                  rel = file_path.relative_to(root).as_posix()
+                  sha = hashlib.sha256(file_path.read_bytes()).hexdigest()
                   pattern = rf'(file = "{re.escape(rel)}"\nhash = ")[0-9a-f]+(")'
                   text, count = re.subn(pattern, rf"\g<1>{sha}\2", text)
                   if count != 1:

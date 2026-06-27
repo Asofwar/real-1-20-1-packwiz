@@ -1269,7 +1269,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ambientsounds.pw.toml"
-hash = "cab0f013c07f145ee02e0584887fde580b1fcabe094dfb711967681de7382ac6"
+hash = "965aced70da8b9a36a7ad13ef3679af6d151878cee8b9fbb4b757e87789235b8"
 metafile = true
 
 [[files]]
@@ -1409,7 +1409,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/clickable-advancements.pw.toml"
-hash = "b095c42e89598fa07cbb233c222f3754993b33d5c798d401dcce410f84c5e25e"
+hash = "85575a1ba20edbb77e0028b0479fcbe3cce9b92e0abdcdf3e8da9990fd0f37b4"
 metafile = true
 
 [[files]]
@@ -1429,7 +1429,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/common-network.pw.toml"
-hash = "83ba2a4bbf147f2ce5fe218f852cae0de91e4be465d9b158ac31563c5887b661"
+hash = "fe428b6a2f46cc4122b8322aef5807a8b1191a5e4f8cdabcec44f59479d4126d"
 metafile = true
 
 [[files]]
@@ -1444,7 +1444,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/connectivity.pw.toml"
-hash = "d178864814addbf4183a52fc3824317e4f70977d08d948caaa251abe5e164b2f"
+hash = "4d2fdad709e801e4467ed97718ccc2eb03ee092329ad2ca27f6f95f096bc9c79"
 metafile = true
 
 [[files]]
@@ -1614,7 +1614,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/cupboard.pw.toml"
-hash = "4a57b941d319ee9dd281949c13d766222fa23cae9f538a567bc17daf80990426"
+hash = "30ad0b893dc19826645b87af6572f42dc4b6652a3c5e477e77fd07fccdb38b08"
 metafile = true
 
 [[files]]
@@ -1709,7 +1709,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/falling-tree.pw.toml"
-hash = "ce9c2acd0d3940397768a7d54ec174ba11b64719a4e9a2449a35097f42387569"
+hash = "df6f3cadcd212d97f0b4ad525a4f232c82674d2a9986ecfd2c0a2da80744fab0"
 metafile = true
 
 [[files]]
@@ -1739,7 +1739,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/framework.pw.toml"
-hash = "e4bfd951959fa331544fffcad87d6ffc4e8a87f121cdba11081b0c723a5022f6"
+hash = "2e52d7fc64d31ffca6a4b0a3d64ed1489ed9b604a60de0270bd1795c248ee1e3"
 metafile = true
 
 [[files]]
@@ -2014,7 +2014,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/more-villagers-fabric.pw.toml"
-hash = "1c198dcc72e40bd7a03cd13ec85280b4089614624bdc59439c574b71feb4cb58"
+hash = "d3f3ae0ff1cc3f415809e0290f2ac987c0658ea1dbcca9e0483c4c7281ecc7cd"
 metafile = true
 
 [[files]]
@@ -2144,7 +2144,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/smartbrainlib.pw.toml"
-hash = "56e9dcd62f67187f08cbf240254b376d12bff0fa18f73e6ca7114f0908d6223e"
+hash = "5891cd882c4ce3da79ef91a68a16e7d5ae763276e67489b78f44999295942886"
 metafile = true
 
 [[files]]

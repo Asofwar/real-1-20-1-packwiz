@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b73ddf54411cdd93ac8061761b370f0f4bc939a7'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = 'a27e442d29c482a19bedea232358d12606f3c8007ab86313474fc6eac1373401'
+hash-format = 'sha256'
+mode = 'url'
+url = 'https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/downloads/curseforge-fallback/morevillagers-fabric-1.20.1-5.0.0.jar'
 
 [update.curseforge]
 file-id = 4857288

@@ -135,9 +135,6 @@ hash = "8d49f2534901886dd05876bc5d411594ac61f0cf4e7eea44a058f92f1139005a"
 file = "config/cardinal-components-api.properties"
 hash = "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982"
 
-[[files]]
-file = "config/cccbridge.properties"
-hash = "9a8f513803029c50db1c16ddfaec6e60a91a43379d61d8ab27cbe0f5ca9385ec"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -175,9 +172,6 @@ hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
 file = "config/comforts-server.toml"
 hash = "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
 
-[[files]]
-file = "config/computercraft-client.toml"
-hash = "ed112d618caf15d24dcf3674d08180ff46d9a5bd3d501cd24f1b3a867cf61698"
 
 [[files]]
 file = "config/configurable_everything/datafixer.FORBOPRENAMETHISdjs"
@@ -1435,14 +1429,8 @@ file = "mods/carpet.pw.toml"
 hash = "ffba3d0260b6f5950c31f6ef7833e0ba946a2e2120d6b87cba1c3b72f65d1b8a"
 metafile = true
 
-[[files]]
-file = "mods/cc-tweaked.pw.toml"
-hash = "59b79ecda02b66b96614812152467eb2670e68b47b625043e32d264dc587c2e7"
 metafile = true
 
-[[files]]
-file = "mods/cccbridge.pw.toml"
-hash = "bf8cb8a40ddd75057d83c7da081fb2741e66848dd1e1c656b2483dc265ff624b"
 metafile = true
 
 [[files]]
@@ -2482,9 +2470,6 @@ hash = "df43d8c785a8357e4b529935b81994d591fb12acb35016e7e420af7bd89e786b"
 file = "resourcepacks/Codex-RU-Overrides/assets/carpet/lang/ru_ru.json"
 hash = "bf944a6c13c03b917d6fef1a18e062c54d739653c200d8a0e7bd8b07e20106ab"
 
-[[files]]
-file = "resourcepacks/Codex-RU-Overrides/assets/cccbridge/lang/ru_ru.json"
-hash = "f4acef97b63632063bca2a73c9d7cecba727a06d22a19087b00467dfabd76640"
 
 [[files]]
 file = "resourcepacks/Codex-RU-Overrides/assets/chefsdelight/lang/ru_ru.json"
@@ -2494,9 +2479,6 @@ hash = "ee487c33f2da13e677f58a589abe12f624fe28927108ed84db2de741df88ce39"
 file = "resourcepacks/Codex-RU-Overrides/assets/comforts/lang/ru_ru.json"
 hash = "79d96ae0986a714a6dd348535ee349d04d40e393cdac12cd9e07237c9ea1b4f4"
 
-[[files]]
-file = "resourcepacks/Codex-RU-Overrides/assets/computercraft/lang/ru_ru.json"
-hash = "64b2f7b4b092dc88a97869f36c50ccd524b5cbc902401157bc568a78da47a3aa"
 
 [[files]]
 file = "resourcepacks/Codex-RU-Overrides/assets/configurable/lang/ru_ru.json"

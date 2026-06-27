@@ -1,0 +1,106 @@
+name: Refresh Packwiz Hashes
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh indexed hashes
+        shell: bash
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          import hashlib
+          import re
+
+          root = Path(".")
+          pack_path = root / "pack.toml"
+          pack_text = pack_path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+          pack_path.write_text(pack_text, encoding="utf-8", newline="\n")
+
+          index_match = re.search(
+              r'\[index\]\nfile = "(?P<file>[^"]+)"\nhash-format = "(?P<format>[^"]+)"\nhash = "(?P<hash>[0-9a-f]+)"',
+              pack_text,
+              re.MULTILINE,
+          )
+          if not index_match:
+              raise SystemExit("Could not parse [index] section in pack.toml")
+
+          index_rel = index_match.group("file")
+          index_path = root / index_rel
+          if not index_path.exists():
+              raise SystemExit(f"Index file is missing: {index_rel}")
+
+          text_suffixes = {
+              ".toml", ".md", ".txt", ".json", ".json5", ".properties", ".cfg",
+              ".conf", ".css", ".js", ".djs", ".yaml", ".yml", ".local", ".schema",
+          }
+
+          entry_re = re.compile(
+              r'\[\[files\]\]\nfile = "(?P<file>[^"]+)"\nhash = "(?P<hash>[0-9a-f]+)"',
+              re.MULTILINE,
+          )
+
+          def normalize_text(path: Path) -> None:
+              text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+              path.write_text(text, encoding="utf-8", newline="\n")
+
+          normalize_text(index_path)
+          index_text = index_path.read_text(encoding="utf-8")
+          indexed_files = [root / m.group("file") for m in entry_re.finditer(index_text)]
+
+          for file_path in indexed_files:
+              if not file_path.exists():
+                  raise SystemExit(f"Indexed file is missing: {file_path.relative_to(root).as_posix()}")
+              if file_path.suffix.lower() in text_suffixes:
+                  normalize_text(file_path)
+
+          index_text = index_path.read_text(encoding="utf-8")
+          for file_path in indexed_files:
+              rel = file_path.relative_to(root).as_posix()
+              sha = hashlib.sha256(file_path.read_bytes()).hexdigest()
+              pattern = rf'(file = "{re.escape(rel)}"\nhash = ")[0-9a-f]+(")'
+              index_text, count = re.subn(pattern, rf"\g<1>{sha}\2", index_text)
+              if count != 1:
+                  raise SystemExit(f"Could not refresh hash for {rel} in {index_rel}")
+
+          index_path.write_text(index_text, encoding="utf-8", newline="\n")
+
+          index_hash = hashlib.sha256(index_path.read_bytes()).hexdigest()
+          pack_text = pack_path.read_text(encoding="utf-8")
+          pack_text = re.sub(r'hash = "[0-9a-f]+"', f'hash = "{index_hash}"', pack_text, count=1)
+          pack_path.write_text(pack_text, encoding="utf-8", newline="\n")
+
+          print(f"Refreshed {len(indexed_files)} indexed files")
+          print(f"Index: {index_rel}")
+          print(f"Index hash: {index_hash}")
+          PY
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No hash changes required."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pack.toml *.toml .github/workflows/refresh-packwiz-hashes.yml mods/.index downloads config resourcepacks defaultconfigs kubejs patchouli_books shaderpacks
+          git commit -m "Refresh packwiz hashes"
+          git push

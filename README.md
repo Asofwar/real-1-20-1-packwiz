@@ -1,61 +1,34 @@
-# Real 1-20-1 Packwiz Pack
+# Real 1-20-1 Mac Packwiz Repo
 
-[![Validate Packwiz Metadata](https://github.com/Asofwar/real-1-20-1-packwiz/actions/workflows/validate-packwiz.yml/badge.svg)](https://github.com/Asofwar/real-1-20-1-packwiz/actions/workflows/validate-packwiz.yml)
-[![Refresh Packwiz Hashes](https://github.com/Asofwar/real-1-20-1-packwiz/actions/workflows/refresh-packwiz-hashes.yml/badge.svg)](https://github.com/Asofwar/real-1-20-1-packwiz/actions/workflows/refresh-packwiz-hashes.yml)
+Этот каталог готов к публикации как GitHub-репозиторий для `packwiz`.
 
-Универсальная клиентская сборка `Minecraft 1.20.1` на `Fabric` для Prism Launcher с автообновлением через `packwiz`.
+Что внутри:
+- `pack.toml` и `index.toml`
+- `mods/`
+- `config/`
+- `kubejs/`
+- `defaultconfigs/`
+- `resourcepacks/`
 
-## Что хранится в репозитории
+Как опубликовать:
+1. Создайте пустой GitHub-репозиторий.
+2. Скопируйте содержимое этой папки в репозиторий.
+3. Выполните:
 
-- `pack.toml` - главная точка входа packwiz
-- `index-main.toml` - индекс файлов и хэшей
-- `mods/` - метаданные модов `*.pw.toml`
-- `config/` - клиентские конфиги
-- `defaultconfigs/` - дефолтные конфиги модов
-- `resourcepacks/` - ресурспаки
-- `shaderpacks/` - шейдеры
-- `kubejs/` - скрипты и ассеты KubeJS
-- `scripts/` - служебные проверки
-
-Сборка рассчитана и на Windows, и на macOS.
-
-## Точка входа
-
-```text
-https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/pack.toml
+```bash
+git init
+git add .
+git commit -m "Initial packwiz pack"
+git branch -M main
+git remote add origin https://github.com/<github-user>/<repo-name>.git
+git push -u origin main
 ```
 
-## Как работает обновление
+Pack URL для Prism/macOS-инстанса:
 
-- перед стартом Prism вызывает `packwiz-installer-bootstrap`
-- клиент сверяет локальные файлы с `pack.toml` и `index-main.toml`
-- если сборка изменилась, нужные файлы скачиваются автоматически
+```text
+https://raw.githubusercontent.com/<github-user>/<repo-name>/main/pack.toml
+```
 
-## Автопроверки
-
-В репозитории включены GitHub Actions:
-
-- `Validate Packwiz Metadata` - проверяет согласованность `mods/*.pw.toml`, `index-main.toml` и `pack.toml`
-- `Refresh Packwiz Hashes` - нормализует line endings и пересчитывает packwiz-хэши при изменениях
-
-## Если у клиента проблемы
-
-Если Prism показывает `Failed file downloads` или клиент не пускает на сервер из-за рассинхрона:
-
-1. Закройте Prism Launcher.
-2. В проблемном инстансе удалите `minecraft/packwiz.json`.
-3. Удалите случайные `minecraft/mods/*.pw.toml`, если они появились рядом с `.jar`.
-4. Запустите инстанс снова.
-
-Если проблема не ушла, проверьте статус workflow в репозитории и актуальность `pack.toml`.
-
-## Технические параметры
-
-- Minecraft: `1.20.1`
-- Loader: `Fabric 0.16.10`
-- Формат: `packwiz:1.1.0`
-
-## Ссылки
-
-- Репозиторий: [Asofwar/real-1-20-1-packwiz](https://github.com/Asofwar/real-1-20-1-packwiz)
-- `pack.toml`: [raw link](https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/pack.toml)
+После первого пуша используйте соседний шаблон Prism-инстанса и скрипт `configure-packwiz-github.ps1`,
+чтобы подставить ваш реальный URL и собрать zip для друзей.

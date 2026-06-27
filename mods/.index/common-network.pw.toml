@@ -1,0 +1,16 @@
+filename = 'common-networking-fabric-1.0.5-1.20.1.jar'
+name = 'Common Network'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fac58a3f0ca411689474413338933b55e877610d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5486135
+project-id = 806044

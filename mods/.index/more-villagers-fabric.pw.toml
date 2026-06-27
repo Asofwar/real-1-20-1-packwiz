@@ -1,0 +1,16 @@
+filename = 'morevillagers-fabric-1.20.1-5.0.0.jar'
+name = 'More Villagers [Fabric]'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b73ddf54411cdd93ac8061761b370f0f4bc939a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4857288
+project-id = 486080

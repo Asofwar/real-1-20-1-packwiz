@@ -1273,6 +1273,11 @@ hash = "cab0f013c07f145ee02e0584887fde580b1fcabe094dfb711967681de7382ac6"
 metafile = true
 
 [[files]]
+file = "mods/.index/animal-feeding-trough.pw.toml"
+hash = "8d3235a454b3e10eda90aa7a6eb7bd855c63aec1a79192bdb83aea7447551f14"
+metafile = true
+
+[[files]]
 file = "mods/.index/animatica.pw.toml"
 hash = "2a38e7bf95e626f94007b7e1dc8424b2658d6bc8e0470b3f13b56f99c22e3017"
 metafile = true
@@ -1738,6 +1743,11 @@ hash = "e4bfd951959fa331544fffcad87d6ffc4e8a87f121cdba11081b0c723a5022f6"
 metafile = true
 
 [[files]]
+file = "mods/.index/friends-and-foes.pw.toml"
+hash = "d31b2ceb5f57396e7302a4e3b3e045f9aeaf1258cd4bfcc3d1f513bebd26ad4c"
+metafile = true
+
+[[files]]
 file = "mods/.index/fusion-connected-textures.pw.toml"
 hash = "a23773974d1c8095b2103d15534a1a07fee87ce6cc77cfc7e43136333d88aaec"
 metafile = true
@@ -1780,6 +1790,11 @@ metafile = true
 [[files]]
 file = "mods/.index/immediatelyfast.pw.toml"
 hash = "9e530ac890a271cbe37b13ffd533afa75987565ed2cf7373a68d09b7fe18b66a"
+metafile = true
+
+[[files]]
+file = "mods/.index/immersive-weathering.pw.toml"
+hash = "1a6e7b6769d334d515f32dc783af6c0e6da67c7299902d5cd47c2ff80a4bcb85"
 metafile = true
 
 [[files]]

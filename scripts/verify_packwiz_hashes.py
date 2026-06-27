@@ -8,8 +8,8 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INDEX_FILES = ("index-20260627.toml", "index-main.toml")
-PACK_FILES = ("pack.toml", "pack-20260627.toml")
+INDEX_FILES = ("index-main.toml",)
+PACK_FILES = ("pack.toml",)
 NORMALIZED_TEXT_FILES = (*INDEX_FILES, *PACK_FILES)
 
 
@@ -90,10 +90,7 @@ def verify() -> list[Failure]:
                     )
                 )
 
-    if parsed_indexes["index-20260627.toml"] != parsed_indexes["index-main.toml"]:
-        failures.append(Failure("index-20260627.toml and index-main.toml differ"))
-
-    index_20260627_hash = file_sha256(ROOT / "index-20260627.toml")
+    index_main_hash = file_sha256(ROOT / "index-main.toml")
     for pack_name in PACK_FILES:
         pack_path = ROOT / pack_name
         try:
@@ -102,16 +99,16 @@ def verify() -> list[Failure]:
             failures.append(Failure(str(exc)))
             continue
 
-        if index_file != "index-20260627.toml":
+        if index_file != "index-main.toml":
             failures.append(
-                Failure(f"{pack_name} points to {index_file} instead of index-20260627.toml")
+                Failure(f"{pack_name} points to {index_file} instead of index-main.toml")
             )
         if hash_format != "sha256":
             failures.append(Failure(f"{pack_name} uses hash-format {hash_format} instead of sha256"))
-        if actual_hash != index_20260627_hash:
+        if actual_hash != index_main_hash:
             failures.append(
                 Failure(
-                    f"{pack_name} has wrong index hash: expected {index_20260627_hash}, got {actual_hash}"
+                    f"{pack_name} has wrong index hash: expected {index_main_hash}, got {actual_hash}"
                 )
             )
 

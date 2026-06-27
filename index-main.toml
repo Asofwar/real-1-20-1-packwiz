@@ -4564,12 +4564,12 @@ hash = "13af6c439ef8651916b18d2d658f134b07ce3c2e835d23d37d5d24c5d43284de"
 
 [[files]]
 file = "mods/animal-feeding-trough.pw.toml"
-hash = "ded4e544ded26b160af34473bdf92c2d3cdb3c716be997102226ce2840141dfb"
+hash = "8d3235a454b3e10eda90aa7a6eb7bd855c63aec1a79192bdb83aea7447551f14"
 
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
-hash = "ca3dbba236b32b453c7c78f75f5298d61f6164f559b34bc5a130ed6f9f8fd74b"
+hash = "d31b2ceb5f57396e7302a4e3b3e045f9aeaf1258cd4bfcc3d1f513bebd26ad4c"
 
 [[files]]
 file = "mods/immersive-weathering.pw.toml"
-hash = "319c04e805c58643fee44d069dcdfe7be45aab6f6e44e1d97041791a23a3f491"
+hash = "1a6e7b6769d334d515f32dc783af6c0e6da67c7299902d5cd47c2ff80a4bcb85"

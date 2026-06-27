@@ -5,28 +5,21 @@
 
 Универсальная клиентская сборка `Minecraft 1.20.1` на `Fabric` для Prism Launcher с автообновлением через `packwiz`.
 
-## Что это
+## Что хранится в репозитории
 
-Этот репозиторий хранит:
+- `pack.toml` - главная точка входа packwiz
+- `index-main.toml` - индекс файлов и хэшей
+- `mods/` - метаданные модов `*.pw.toml`
+- `config/` - клиентские конфиги
+- `defaultconfigs/` - дефолтные конфиги модов
+- `resourcepacks/` - ресурспаки
+- `shaderpacks/` - шейдеры
+- `kubejs/` - скрипты и ассеты KubeJS
+- `scripts/` - служебные проверки
 
-- список модов
-- конфиги клиента
-- ресурс-паки
-- шейдеры
-- packwiz-метаданные для автоматического обновления
+Сборка рассчитана и на Windows, и на macOS.
 
-Клиент можно использовать и на Windows, и на macOS.
-
-## Установка
-
-### Вариант 1. Через готовый Prism-инстанс
-
-Импортируйте подготовленный Prism-инстанс и запускайте игру как обычно.
-При старте `packwiz` сам проверит обновления и подтянет недостающие файлы.
-
-### Вариант 2. Через `packwiz` напрямую
-
-Точка входа пакета:
+## Точка входа
 
 ```text
 https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/pack.toml
@@ -34,44 +27,27 @@ https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/pack.toml
 
 ## Как работает обновление
 
-- перед запуском Prism вызывает `packwiz-installer-bootstrap`
-- клиент сверяет локальные файлы с `pack.toml` и `index`
-- если в сборке что-то изменилось, нужные файлы скачиваются автоматически
-
-## Структура репозитория
-
-- `pack.toml` и `pack-20260627.toml` — точки входа packwiz
-- `index-main.toml` и `index-20260627.toml` — индекс файлов и хэшей
-- `mods/` — описания модов `*.pw.toml`
-- `config/` — клиентские конфиги
-- `defaultconfigs/` — дефолтные конфиги модов
-- `resourcepacks/` — ресурс-паки
-- `shaderpacks/` — шейдеры
-- `kubejs/` — скрипты и ассеты KubeJS
-- `scripts/` — служебные скрипты проверки
+- перед стартом Prism вызывает `packwiz-installer-bootstrap`
+- клиент сверяет локальные файлы с `pack.toml` и `index-main.toml`
+- если сборка изменилась, нужные файлы скачиваются автоматически
 
 ## Автопроверки
 
 В репозитории включены GitHub Actions:
 
-- `Validate Packwiz Metadata`
-  - проверяет, что `*.pw.toml`, `index*.toml` и `pack*.toml` согласованы между собой
-  - ловит ошибки хэшей и проблемы с переводами строк
-- `Refresh Packwiz Hashes`
-  - автоматически нормализует line endings и пересчитывает packwiz-хэши при изменениях
+- `Validate Packwiz Metadata` - проверяет согласованность `mods/*.pw.toml`, `index-main.toml` и `pack.toml`
+- `Refresh Packwiz Hashes` - нормализует line endings и пересчитывает packwiz-хэши при изменениях
 
 ## Если у клиента проблемы
 
-Если Prism показывает `Failed file downloads` или клиент не пускает на сервер из-за несовпадения модов:
+Если Prism показывает `Failed file downloads` или клиент не пускает на сервер из-за рассинхрона:
 
 1. Закройте Prism Launcher.
-2. В проблемном инстансе удалите:
-   - `minecraft/packwiz.json`
-   - `minecraft/packwiz-installer.jar`
-   - случайные `minecraft/mods/*.pw.toml`
-3. Запустите инстанс снова.
+2. В проблемном инстансе удалите `minecraft/packwiz.json`.
+3. Удалите случайные `minecraft/mods/*.pw.toml`, если они появились рядом с `.jar`.
+4. Запустите инстанс снова.
 
-Если проблема не ушла, проверьте статус workflow в этом репозитории и актуальность `pack.toml`.
+Если проблема не ушла, проверьте статус workflow в репозитории и актуальность `pack.toml`.
 
 ## Технические параметры
 

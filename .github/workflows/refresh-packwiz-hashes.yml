@@ -101,6 +101,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pack.toml *.toml .github/workflows/refresh-packwiz-hashes.yml mods/.index downloads config resourcepacks defaultconfigs kubejs patchouli_books shaderpacks
+          git add -A
           git commit -m "Refresh packwiz hashes"
           git push

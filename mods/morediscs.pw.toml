@@ -1,0 +1,16 @@
+﻿filename = 'morediscs-1.20.1-33.1-fabric.jar'
+name = 'More Music Discs'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cd657a5238858e8a168e27079a7f1d61994a809f2a80fcff126be22fdaf0882e5da639fa2130904463d8fbb85ab5c3073093c61712bc6a20a157a74712dde9b9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pXYChc1a/versions/xdEiclmD/morediscs-1.20.1-33.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'pXYChc1a'
+version = 'xdEiclmD'

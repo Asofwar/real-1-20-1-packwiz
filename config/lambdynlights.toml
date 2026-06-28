@@ -122,4 +122,5 @@
 			[light_sources.settings.entities.vinery]
 				wandering_winemaker = true
 				mule = true
+				dark_cherry_boat = true
 

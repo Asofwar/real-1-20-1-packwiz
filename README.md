@@ -1,34 +1,25 @@
-# Real 1-20-1 Mac Packwiz Repo
+# Real 1.20.1 Client
 
-Этот каталог готов к публикации как GitHub-репозиторий для `packwiz`.
+Это локальный клиентский инстанс Minecraft `1.20.1` для Prism Launcher с Fabric `0.16.10`.
 
-Что внутри:
-- `pack.toml` и `index.toml`
-- `mods/`
-- `config/`
-- `kubejs/`
-- `defaultconfigs/`
-- `resourcepacks/`
+Внутри:
+- `mods/` - основной набор модов клиента
+- `config/` - клиентские и общие конфиги модов
+- `kubejs/` - кастомные скрипты и ресурсы KubeJS
+- `resourcepacks/` - ресурспаки, включая русские переопределения
+- `shaderpacks/` - набор шейдеров
+- `packwiz-installer.jar` и `packwiz-prelaunch.ps1` - обновление инстанса через Packwiz перед запуском
 
-Как опубликовать:
-1. Создайте пустой GitHub-репозиторий.
-2. Скопируйте содержимое этой папки в репозиторий.
-3. Выполните:
+Что важно:
+- Это уже распакованный и готовый к запуску инстанс, а не чистый `packwiz`-репозиторий.
+- Источник обновлений задан в [instance.cfg](D:/MineClient/workspace/instance.cfg) через `PreLaunchCommand`.
+- Папка `mods/.index/` используется Packwiz как локальный кэш и не является дублем "по ошибке".
 
-```bash
-git init
-git add .
-git commit -m "Initial packwiz pack"
-git branch -M main
-git remote add origin https://github.com/<github-user>/<repo-name>.git
-git push -u origin main
-```
+Что было почищено:
+- удалены временные и кэш-файлы, которые создаются во время запуска клиента
+- восстановлена читаемая документация вместо файла с битой кодировкой
 
-Pack URL для Prism/macOS-инстанса:
-
-```text
-https://raw.githubusercontent.com/<github-user>/<repo-name>/main/pack.toml
-```
-
-После первого пуша используйте соседний шаблон Prism-инстанса и скрипт `configure-packwiz-github.ps1`,
-чтобы подставить ваш реальный URL и собрать zip для друзей.
+Если нужно дальше оптимизировать клиент, логично идти в таком порядке:
+1. Проверить конфликтные или лишние моды с ручными именами вроде `(1)`.
+2. Свести к минимуму кэши и временные данные перед упаковкой или переносом.
+3. Отдельно пересобрать Packwiz-репозиторий, если нужен именно управляемый удалённый пак.

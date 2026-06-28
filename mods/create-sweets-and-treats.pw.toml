@@ -1,4 +1,4 @@
-﻿filename = 'create_snt-2.0-with-apple-syrup.jar'
+filename = 'create_snt-2.0-with-apple-syrup.jar'
 name = 'Create Sweets And Treats'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]

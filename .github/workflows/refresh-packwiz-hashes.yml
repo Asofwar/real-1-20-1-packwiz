@@ -30,7 +30,19 @@ jobs:
 
           root = Path(".")
           pack_path = root / "pack.toml"
-          pack_text = pack_path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+          def normalized_text(path: Path) -> str:
+              text = path.read_text(encoding="utf-8")
+              text = text.lstrip("\ufeff")
+              return text.replace("\r\n", "\n").replace("\r", "\n")
+
+          def normalize_text(path: Path) -> None:
+              path.write_text(normalized_text(path), encoding="utf-8", newline="\n")
+
+          def assert_no_bom(path: Path) -> None:
+              if path.read_bytes().startswith(b"\xef\xbb\xbf"):
+                  raise SystemExit(f"BOM is not allowed in {path.relative_to(root).as_posix()}")
+
+          pack_text = normalized_text(pack_path)
           pack_path.write_text(pack_text, encoding="utf-8", newline="\n")
 
           index_match = re.search(
@@ -56,10 +68,6 @@ jobs:
               re.MULTILINE,
           )
 
-          def normalize_text(path: Path) -> None:
-              text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
-              path.write_text(text, encoding="utf-8", newline="\n")
-
           normalize_text(index_path)
           index_text = index_path.read_text(encoding="utf-8")
           indexed_files = [root / m.group("file") for m in entry_re.finditer(index_text)]
@@ -82,9 +90,13 @@ jobs:
           index_path.write_text(index_text, encoding="utf-8", newline="\n")
 
           index_hash = hashlib.sha256(index_path.read_bytes()).hexdigest()
-          pack_text = pack_path.read_text(encoding="utf-8")
+          pack_text = normalized_text(pack_path)
           pack_text = re.sub(r'hash = "[0-9a-f]+"', f'hash = "{index_hash}"', pack_text, count=1)
           pack_path.write_text(pack_text, encoding="utf-8", newline="\n")
+
+          for path in [pack_path, index_path, *indexed_files]:
+              if path.suffix.lower() == ".toml":
+                  assert_no_bom(path)
 
           print(f"Refreshed {len(indexed_files)} indexed files")
           print(f"Index: {index_rel}")

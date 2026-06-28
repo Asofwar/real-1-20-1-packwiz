@@ -1594,7 +1594,7 @@ hash = "46d159ed91c315be84fff0780b03d23d2e24c250771a064017533524ad09e545"
 
 [[files]]
 file = "mods/create-sweets-and-treats.pw.toml"
-hash = "31f809ca922f45b0d9c1b9c5ba7f50d570fdfe8d975536b75fb6ea875e5bd09a"
+hash = "998bcf0361b4f48ca28437ed65b00378c734c3941eb8075e1c7849aa9f1fc9b1"
 
 [[files]]
 file = "mods/create-trimmed.pw.toml"
@@ -1818,7 +1818,7 @@ hash = "59bc8bd599fff6182a20ccbad0f93b651bbc3066e607079aa86d3becda6c64bb"
 
 [[files]]
 file = "mods/joy-of-painting.pw.toml"
-hash = "20afa359a1400d0490527f8d31263aa9e703c81b9420c59238dd513846b9d1ad"
+hash = "84c60eaac15700bc2d923c39a9fc2a9a99fbb045971e1a32192e947542efa74e"
 
 [[files]]
 file = "mods/jupiter.pw.toml"
@@ -1966,7 +1966,7 @@ hash = "bb7c9d8896cd4f52cb6a670625f8ffa01c03d984f6a4ce17f0a695b240d48066"
 
 [[files]]
 file = "mods/morediscs.pw.toml"
-hash = "8c75708bf9341690f0f599f8ab645b28e1ceafd3d1261704c92cbe7d7541ae53"
+hash = "0899c90515702c8f27939788d7e303cd1339a20371d8ce4a16749fc05104a8ca"
 
 [[files]]
 file = "mods/more-music-discs.pw.toml"
@@ -1978,7 +1978,7 @@ hash = "1c198dcc72e40bd7a03cd13ec85280b4089614624bdc59439c574b71feb4cb58"
 
 [[files]]
 file = "mods/music-maker.pw.toml"
-hash = "23c9565ac5d258c41e2d21637e0b3185f62b48f23a07d84bfac86b8f2317aa6c"
+hash = "d6a9195d49bf581a889eaf99644b182a1f195a2b100fcdb8aa7faf2ff4c6ebc7"
 
 [[files]]
 file = "mods/music-maker-mod.pw.toml"

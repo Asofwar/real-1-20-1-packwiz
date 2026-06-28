@@ -1315,7 +1315,7 @@ hash = "da955a490dcb70cb5b64b3d796eec9611889508ddc22ad93b278e1b5700b837a"
 metafile = true
 
 [[files]]
-file = "mods/automobility-0.4.2+1.20.1-fabric (1).jar"
+file = "mods/automobility-0.4.2+1.20.1-fabric.jar"
 hash = "a708546e60fd9dca5628b785d5c93ab908f7c1329be6faa59a95e4cdf84cb3ad"
 
 [[files]]
@@ -1623,7 +1623,7 @@ file = "mods/create-new-age-fabric-1.20.1-1.1.2.jar"
 hash = "be8d3138bc703f20a1b27f189d139086462b15d912538f1e653aa6ec852bf457"
 
 [[files]]
-file = "mods/createnuclear-1.0.2 (1).jar"
+file = "mods/createnuclear-1.0.2.jar"
 hash = "664bd09ff3fabcdb68d86e01d8d275d3798441860778090c38414102bd6af3d2"
 
 [[files]]
@@ -1671,7 +1671,7 @@ hash = "3643cdff2dea9c1ec64f274dad4064a3ec8cf625fb84c845b82c1b74e80b9c2d"
 metafile = true
 
 [[files]]
-file = "mods/createutilities-0.3.0+1.20.1 (1).jar"
+file = "mods/createutilities-0.3.0+1.20.1.jar"
 hash = "42c8089de217a0c8c9f37099601f8c66c98366903f3b66c10a1312014c2f70d9"
 
 [[files]]
@@ -1813,7 +1813,7 @@ hash = "d227a1ce36a092bf7ae53231cadc6deab046deed217c2eb09972fbb53fb02208"
 metafile = true
 
 [[files]]
-file = "mods/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric (1).jar"
+file = "mods/forgeconfigapiport-v8.0.1-1.20.1-fabric.jar"
 hash = "8f078189ad44eaf20cfb277f92b6362a508d50a94b0a35956e2779c6665be464"
 
 [[files]]
@@ -1875,11 +1875,11 @@ hash = "9e530ac890a271cbe37b13ffd533afa75987565ed2cf7373a68d09b7fe18b66a"
 metafile = true
 
 [[files]]
-file = "mods/immersive_aircraft-1.1.8+1.20.1-fabric (1).jar"
+file = "mods/immersive_aircraft-1.1.8+1.20.1-fabric.jar"
 hash = "e01832695a91a4a3337160cececfaba7a3d9c5dcf6e4474f63d72daafe4fe7cb"
 
 [[files]]
-file = "mods/immersive_machinery-0.0.2+1.20.1-fabric (1).jar"
+file = "mods/immersive_machinery-0.0.2+1.20.1-fabric.jar"
 hash = "34cf11dc17a331958602ee81cb6a5f24d6b8b80a063bcac89aae30dd0f9b970e"
 
 [[files]]
@@ -1965,7 +1965,7 @@ hash = "01630ff9e1576c0ab0b6ad0ed2b8021addf612e1a657954bf53728a0cab80b88"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights-2.3.2+1.20.1 (1).jar"
+file = "mods/lambdynamiclights-2.3.2+1.20.1.jar"
 hash = "20433fb9a20f9450599bde4d8f0e8b0898eefdbda13e47d68430d31422c9f564"
 
 [[files]]
@@ -2143,7 +2143,7 @@ hash = "61ed6b5da8fd40258c29a7549aa27361027040cb1347b3ed0e6a8e62410e7b06"
 metafile = true
 
 [[files]]
-file = "mods/naturalist-fabric-4.0.3-1.20.1 (1).jar"
+file = "mods/naturalist-fabric-4.0.3-1.20.1.jar"
 hash = "39bb19f571f920de7146c81123990d6e5c7f0862b74507beb4d2510c4f03b717"
 
 [[files]]
@@ -2233,7 +2233,7 @@ file = "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar"
 hash = "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec"
 
 [[files]]
-file = "mods/refurbished_furniture-fabric-1.20.1-1.0.8 (1).jar"
+file = "mods/refurbished_furniture-fabric-1.20.1-1.0.8.jar"
 hash = "6de535901d24932695f29650b6dfad97e1f024da18f043a1cf696e742caefb50"
 
 [[files]]
@@ -2242,7 +2242,7 @@ hash = "4f219f0b021ec93987ab23b49d2815cacf4bbbd3deb0f9616bfec2627b23c2b6"
 metafile = true
 
 [[files]]
-file = "mods/resourcefullib-fabric-1.20.1-2.1.29 (1).jar"
+file = "mods/resourcefullib-fabric-1.20.1-2.1.29.jar"
 hash = "2543d76f4f440d4401dccf7675f836381260919f0ac884e2696ae67e600adeeb"
 
 [[files]]
@@ -4590,3 +4590,7 @@ hash = "425c2e6d75bccbb3aacfedba6b7c66e2619727a8f15a3469783d95f28b734cd2"
 file = "shaderpacks/ComplementaryReimagined_r5.4.zip"
 hash = "13af6c439ef8651916b18d2d658f134b07ce3c2e835d23d37d5d24c5d43284de"
 
+
+[[files]]
+file = "PACKWIZ_MAINTENANCE.md"
+hash = "f31c3d2737d066d13a74f4564d45b4dc1b3c29bb84304f83d4e9b766491d8a38"

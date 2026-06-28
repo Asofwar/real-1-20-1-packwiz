@@ -1,4 +1,4 @@
-hash-format = "sha256"
+﻿hash-format = "sha256"
 
 [[files]]
 file = ".gitattributes"
@@ -1234,7 +1234,7 @@ hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "5561f1f010c2aac4b4ffe58cf20b5023ec0616075e41dc2e9d7ff43f25ef36a3"
+hash = "155db51e7f4d0ea9fb9137d6fb32f4bbd1fd89c5f1780c281f84d596f73f22f5"
 
 [[files]]
 file = "downloads/curseforge-fallback/AmbientSounds_FABRIC_v6.1.6_mc1.20.1.jar"

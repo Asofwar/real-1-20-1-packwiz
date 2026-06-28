@@ -1,11 +1,11 @@
-name = "Real 1-20-1 Mac"
+﻿name = "Real 1-20-1 Mac"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "36b70c0d6d87b5c959f3c71a36c77896eb11cbf0dfd83ad34f06db44abc7b13b"
+hash = "0b9c94b735349e183dcfe765eccbd29b63cb9ea27181fe643c97e1778bd09e97"
 
 [versions]
 fabric = "0.16.10"

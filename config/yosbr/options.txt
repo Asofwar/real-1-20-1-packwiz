@@ -1,3 +1,3 @@
 version:3465
-resourcePacks:["vanilla","fabric","Moonlight Mods Dynamic Assets","seasons:seasonal_lush_caves","continuity:default","continuity:glass_pane_culling_fix","file/Rus-For-Mods-1.20-B6.zip","file/RTF_v.2.8.4_1.20.x.zip","file/CreateRuBeta - 0.5.1.d - v9.zip","file/Codex-RU-Overrides","file/Better-Leaves-9.0.zip"]
+resourcePacks:["vanilla","fabric","Moonlight Mods Dynamic Assets","seasons:seasonal_lush_caves","continuity:default","continuity:glass_pane_culling_fix","file/Rus-For-Mods-1.20-B6.zip","file/RTF_v.2.8.4_1.20.x.zip","file/CreateRuBeta - 0.5.1.d - v9.zip","file/Client-RU-Overrides","file/Better-Leaves-9.0.zip"]
 incompatibleResourcePacks:[]

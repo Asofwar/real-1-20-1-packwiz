@@ -1,0 +1,11 @@
+{
+  "exclusions": [
+    "minecraft:concrete_powder"
+  ],
+  "item": [
+    "minecraft:concrete_powder"
+  ],
+  "block": [
+    "minecraft:concrete_powder"
+  ]
+}

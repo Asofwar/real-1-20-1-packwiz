@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create_bic_bit:block/ketchup_still"
+  }
+}

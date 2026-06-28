@@ -1464,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/common-network.pw.toml"
-hash = "83ba2a4bbf147f2ce5fe218f852cae0de91e4be465d9b158ac31563c5887b661"
+hash = "5a5e7f31da9be34abb768c06f626571ac7b33d03ae46eda2ffb882866d4911ae"
 metafile = true
 
 [[files]]
@@ -1681,7 +1681,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "839e1ce1add7a82c39fad805de6339c1e945242075f6916f3cebe0d055335cf6"
+hash = "b521e8b5a86000c6699c2676e92226aec325427bdb157c8fbc2ba66cc401d608"
 metafile = true
 
 [[files]]
@@ -1818,7 +1818,7 @@ hash = "8f078189ad44eaf20cfb277f92b6362a508d50a94b0a35956e2779c6665be464"
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "e4bfd951959fa331544fffcad87d6ffc4e8a87f121cdba11081b0c723a5022f6"
+hash = "0ddf4a4b9812e8092678f6867b785b1e48a07a8117bb330cb27fc03ff761e2a0"
 metafile = true
 
 [[files]]

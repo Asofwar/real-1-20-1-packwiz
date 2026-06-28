@@ -1277,7 +1277,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "cab0f013c07f145ee02e0584887fde580b1fcabe094dfb711967681de7382ac6"
+hash = "e1be7921420d8e2b6f2aeea679816eaf551e54169cd4647ca323b79a5be735ba"
 metafile = true
 
 [[files]]
@@ -1444,7 +1444,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickable-advancements.pw.toml"
-hash = "b095c42e89598fa07cbb233c222f3754993b33d5c798d401dcce410f84c5e25e"
+hash = "cd4964fac8b2e045c489c205abb8752875874bf2a9e292b46b1966775fa210ee"
 metafile = true
 
 [[files]]
@@ -1479,7 +1479,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "d178864814addbf4183a52fc3824317e4f70977d08d948caaa251abe5e164b2f"
+hash = "4128a85f1f34402ebc45bc791f2102c2e5d488bbb508f72cad0dd1a02a7221c4"
 metafile = true
 
 [[files]]
@@ -1784,7 +1784,7 @@ metafile = true
 
 [[files]]
 file = "mods/falling-tree.pw.toml"
-hash = "ce9c2acd0d3940397768a7d54ec174ba11b64719a4e9a2449a35097f42387569"
+hash = "c44f40c27e0a2797db48273f6523f437667ffa9570d0da7cd35e618a8fb4535f"
 metafile = true
 
 [[files]]
@@ -2124,7 +2124,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-villagers-fabric.pw.toml"
-hash = "1c198dcc72e40bd7a03cd13ec85280b4089614624bdc59439c574b71feb4cb58"
+hash = "14a551eace8a78bc2cb42e0d7ae2180ccf9c3f9f7f9ba072d4be968e077fe7d6"
 metafile = true
 
 [[files]]
@@ -2291,7 +2291,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
-hash = "56e9dcd62f67187f08cbf240254b376d12bff0fa18f73e6ca7114f0908d6223e"
+hash = "6e1451c08394a926b53f98ab93d2951baf5a9c8be186838396314410c736778a"
 metafile = true
 
 [[files]]

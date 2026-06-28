@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '44d15ae2074b761597e8b8de5846cb2f98f64d25'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '5fb64717c368c2759e768873424a46ee5c40076600feadaac5403ca197aebe0f'
+hash-format = 'sha256'
+mode = 'url'
+url = 'https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/packwiz-cache/mods/FallingTree-1.20.1-4.3.4.jar'
 
 [update.curseforge]
 file-id = 5010620

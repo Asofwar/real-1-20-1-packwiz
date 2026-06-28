@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b1c2e97219a16565497e35066e71a0a400b5c484'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '1bfa4c2d2229a7169e64e3ef0afe71c83d1ee8703bfbc40a044af83ba23a49fa'
+hash-format = 'sha256'
+mode = 'url'
+url = 'https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/packwiz-cache/mods/AmbientSounds_FABRIC_v6.1.6_mc1.20.1.jar'
 
 [update.curseforge]
 file-id = 6189869

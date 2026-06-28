@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '1cdb7b192ec10131cac9f6571088eff778a72557'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = 'a20779e9f6e6a76aea1cdc4d803c3cc2859a0a6edef40a961067daafd30b3686'
+hash-format = 'sha256'
+mode = 'url'
+url = 'https://raw.githubusercontent.com/Asofwar/real-1-20-1-packwiz/main/packwiz-cache/mods/connectivity-fabric-1.20.1-7.1.jar'
 
 [update.curseforge]
 file-id = 6229178
